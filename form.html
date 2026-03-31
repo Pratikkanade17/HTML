@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+</head>
+<body>
+    <h2 style="color: coral;">WELCOME TO MY FIRST FORM</h2>
+    <h2 style="background-color: coral; text-align: center; text-decoration-color: azure; color:whitesmoke" >जय श्री राम</h2>
+    
+    <form action="action.php" target="_blank">
+        <div style="background-color:antiquewhite;">
+        <h3>enter username and password</h3>
+        <input type="text" placeholder="username">
+        <br><br>
+        <input type="password" placeholder="password">
+        </div>
+        <br>
+        <h3>choose your class</h3>
+        <label for="01">
+        <input type="radio" value="Graduation" name="class" id="01"> Graduation
+        </label>
+        <br><br>
+
+        <label for="02">
+        <input type="radio" value="Post-Graduation" name="class" id="02"> Post-Graduation
+        <br>
+
+        <h3>choose your subject</h3>
+        <div style="background-color: plum;">
+        <label for="1">
+        <input type="checkbox" value="math" name="subject" id="1">math
+        </label><br><br>
+        <label for="2">
+        <input type="checkbox" value="chem" name="subject" id="2">chem
+        </label><br><br>
+        <label for="3">
+        <input type="checkbox" value="physics" name="subject" id="3">physics
+        </label><br><br>
+        <label for="4">
+        <input type="checkbox" value="bio" name="subject" id="4">bio
+        </label>
+        </div>
+
+        <br>
+        <br><br>
+
+        <label for="11">
+        <textarea name="feedback" placeholder="Give your feedback here" id="11"></textarea>
+        </label>
+    </form>
+</body>
+</html>
